@@ -1,0 +1,19 @@
+{
+  "name": "Klingl.me developer docu",
+  "version": "0.0.1",
+  "description": "Klingl.me documentation for developer",
+  "main": "index.js",
+  "authors": {
+    "name": "Klingl.me",
+    "email": "contact@hexfourty.com"
+  },
+  "repository": "https://github.com/klinglme/developer-documentation/Klingl.me developer docu",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
