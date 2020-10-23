@@ -1,5 +1,5 @@
 {
-  "name": "Klingl.me developer docu",
+  "name": "klingl.me-developer-docu",
   "version": "0.0.1",
   "description": "Klingl.me documentation for developer",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "repository": "https://github.com/klinglme/developer-documentation/Klingl.me developer docu",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {

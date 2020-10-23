@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: logo.svg
 tagline: Klingl.me documentation for developer
 actionText: Quick Start →
 actionLink: /guide/
