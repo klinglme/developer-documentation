@@ -77,6 +77,11 @@ module.exports = {
             'examples/python',
           ],
         },
+        {
+          title: 'Other',
+          collapsable: false,
+          children: ['other/'],
+        },
       ],
     },
   },
