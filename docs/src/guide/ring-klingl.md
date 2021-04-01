@@ -30,23 +30,23 @@ https://klingl.me/now/<alias>?how=silent
 ## Add Payload
 
 It is possible to add some payload to your **klingl** request. The payload should be a simple string.
+Of course you can also send json as payload when formatting to a string.
 
 > You can use a payload in all types of ring request!
 
-**Send simple text payload**
+**Send payload via GET**
 
 ```
-GET https://klingl.me/now/<alias>
+GET https://klingl.me/now/<alias>?payload=<yourStringPayload>
 ```
 
-**Send a json payload**
-// TODO discuss with max
+**Send a payload via POST**
 ```
 POST https://klingl.me/now/<alias>
 Content-Type: application/json
+Body: {"payload":"<yourStringPayload>"}
 ```
 
 ## Limits
 
-To avoid 'Klinglstreich' we limit requests to a **klingl**. Be aware to that fact and don't spam the API or your **klingl** will be deactivated.
-// TODO discuss with max? 
+To avoid 'Klinglstreich' we limit requests to a **klingl**. Be aware to that fact and don't spam the API, or your **klingl** will be deactivated.
