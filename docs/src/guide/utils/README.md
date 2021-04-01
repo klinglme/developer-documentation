@@ -1,13 +1,13 @@
 # Debugging MQTT
 
-Here is a small collection of programms which we recommend if stuff goes wrong or if you want to know how our MQTT Messages work.
+Here you can see a list of tools we recommend to test our MQTT services.
 
-**Desktop Applications**
+**Desktop applications**
 
-- [MQTT-Explorer](https://github.com/thomasnordquist/MQTT-Explorer)(Cross Plattform)
+- [MQTT-Explorer](https://github.com/thomasnordquist/MQTT-Explorer)(Cross-Platform)
 - [MQTTInspector](https://github.com/ckrey/MQTTInspector)(iOS)
 
-**Mobil Apps**
+**Mobil apps**
 
 - [MQTTAnalyzer](https://github.com/philipparndt/mqtt-analyzer)(iOS)
 - [MQTTInspector](https://github.com/ckrey/MQTTInspector)(iOS)

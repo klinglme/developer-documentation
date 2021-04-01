@@ -1,20 +1,20 @@
 # Overview
 
-There is a big playground for playing arround with different types of inputs and outputs for a **klingl**.
+There is a big playground for playing around with different types of inputs and outputs for a **klingl**.
 
 ## Hardware
 
-For all our example projects we use **ESP32** and **ESP8266** because of there ability to easily implement SSL checks.
+For all our example projects we use **ESP32** and **ESP8266** because of the ability to easily implement SSL checks.
 
-You always are free to use your own microcontroller and implementations.
+You are always free to use your own microcontroller and custom implementations.
 
-For more informations please visit our [Arduino Libary](https://github.com/klinglme/arduino) on Github and have a look at the [Arduino Documentation](/guide/examples/arduino.html)
+For more information please visit our [Arduino Libary](https://github.com/klinglme/arduino) on Github and have a look at the [Arduino Documentation](/guide/examples/arduino.html)
 
 ## Software
 
-There are a lot of libaries in different languages which are implementing the MQTT Protokoll. Feel free to take our examples as starter or develop your own implementation.
+There are a lot of libraries in different languages which are implementing the MQTT protocol. Feel free to take our examples as starter and develop your own implementation.
 
-For more informations please visit our [Examples](https://github.com/klinglme/) on Github and have a look at the [Node.js](/guide/examples/arduino.html) and [Python](/guide/examples/arduino.html) Documentation.
+For more information please visit our [Examples](https://github.com/klinglme/) on Github and have a look at the [Node.js](/guide/examples/arduino.html) and [Python](/guide/examples/arduino.html) documentation.
 
 ## SSL
 

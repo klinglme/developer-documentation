@@ -1,16 +1,19 @@
-# Ring A Klingl
+# Ring a klingl
 
-To ring your klingl you have simply to call the following url:
+To ring your klingl, you can simply call the following url:
 
 ```
 https://klingl.me/now/<alias>
 ```
 
-You can find your alias in your app. Alternatively you can copy the whole link for your **klingl** in your mobile app.
+You can find your alias in the klingl.me app. You can copy the whole link for your **klingl** in your mobile app as well.
 
-## Direct Klingl
+The person ringing will get a dialog to confirm the ring.
+This prevents accidental ringing when people try the link.
 
-You can modify the url that if the url is called we directly ring your **klingl**. Similar to our normal route the person ringing will also get a dialog.
+## Direct klingl
+
+You can modify the url to avoid the confirmation dialog.
 
 ```
 https://klingl.me/now/<alias>?how=direct
@@ -18,7 +21,7 @@ https://klingl.me/now/<alias>?how=direct
 
 ## Silent Klingl
 
-You also can silently ring a **klingl** without getting back the UI.
+You also can silently ring a **klingl** without getting back the UI. Useful when ringing via low powered devices.
 
 ```
 https://klingl.me/now/<alias>?how=silent
@@ -26,7 +29,7 @@ https://klingl.me/now/<alias>?how=silent
 
 ## Add Payload
 
-Its possible to add an payload to your **klingl** request. The payload could be a simple string or json.
+It is possible to add some payload to your **klingl** request. The payload should be a simple string.
 
 > You can use a payload in all types of ring request!
 
@@ -37,7 +40,7 @@ GET https://klingl.me/now/<alias>
 ```
 
 **Send a json payload**
-
+// TODO discuss with max
 ```
 POST https://klingl.me/now/<alias>
 Content-Type: application/json
@@ -45,4 +48,5 @@ Content-Type: application/json
 
 ## Limits
 
-To avoid 'Klinglstreich' we limit request to a **klingl**. Be aware to that fact and don't spam our API or your **klingl** will be deactivated.
+To avoid 'Klinglstreich' we limit requests to a **klingl**. Be aware to that fact and don't spam the API or your **klingl** will be deactivated.
+// TODO discuss with max? 
