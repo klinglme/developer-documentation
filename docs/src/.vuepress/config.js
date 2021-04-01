@@ -30,6 +30,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '../logo.svg',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -57,7 +58,7 @@ module.exports = {
           children: [
             '',
             'ring-klingl',
-            'recieve-ring',
+            'receive-ring',
             'manage-notifications',
             'web-client',
           ],

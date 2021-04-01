@@ -49,4 +49,5 @@ Body: {"payload":"<yourStringPayload>"}
 
 ## Limits
 
-To avoid 'Klinglstreich' we limit requests to a **klingl**. Be aware to that fact and don't spam the API, or your **klingl** will be deactivated.
+To avoid 'Kling
+lstreich' we limit requests to a **klingl**. Be aware to that fact and don't spam the API, or your **klingl** will be deactivated.

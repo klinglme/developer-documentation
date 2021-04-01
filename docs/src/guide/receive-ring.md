@@ -1,4 +1,4 @@
-# Recieve A Ring
+# Receive a ring
 
 ## MQTT
 
