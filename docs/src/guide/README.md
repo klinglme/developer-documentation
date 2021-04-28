@@ -20,7 +20,8 @@ You can either use an QR Code, or a link to ring your **_klingl_**.
 We show you how to create a klingl. (or even several :) )
 
 The easiest way to create a klingl is to use our APP.  
-[--> JUP !](https://apps.apple.com/us/app/klingl-me/id1526855442)
+[Apple AppStore!](https://apps.apple.com/us/app/klingl-me/id1526855442)
+[Google PlayStore!](https://play.google.com/store/apps/details?id=com.klinglme)
 
 ## Trigger klingl via RESTful-API
 You want to make a klingl ring via API? Then you are right here.  

@@ -42,8 +42,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Config',
-        link: '/config/',
+        text: 'Website',
+        link: 'https://klingl.me',
       },
       {
         text: 'VuePress',

@@ -4,4 +4,4 @@ The developer interface helps you to generating tokens and credentials for your 
 
 <!-- todo: Picture -->
 
-[Here you can find the developer interface](https://klingl.me/admin/test)
+[Here you can find the developer interface](https://klinglme.web.app)
