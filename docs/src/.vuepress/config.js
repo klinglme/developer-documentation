@@ -30,7 +30,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    logo: '../logo.svg',
+    logo: '/logo.svg',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -46,8 +46,8 @@ module.exports = {
         link: 'https://klingl.me',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org',
+        text: 'Github',
+        link: 'https://github.com/klinglme',
       },
     ],
     sidebar: {

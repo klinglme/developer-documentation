@@ -15,18 +15,21 @@ The basic setup of klingl.me is really straight forward:
 
 You can either use an QR Code, or a link to ring your **_klingl_**.
 
-
 ## Create klingl
+
 We show you how to create a klingl. (or even several :) )
 
-The easiest way to create a klingl is to use our APP.  
-[Apple AppStore!](https://apps.apple.com/us/app/klingl-me/id1526855442)
-[Google PlayStore!](https://play.google.com/store/apps/details?id=com.klinglme)
+The easiest way to create a klingl is to use our APP.
+
+- [Apple AppStore!](https://apps.apple.com/us/app/klingl-me/id1526855442)
+- [Google PlayStore!](https://play.google.com/store/apps/details?id=com.klinglme)
 
 ## Trigger klingl via RESTful-API
+
 You want to make a klingl ring via API? Then you are right here.  
 [--> JUP !](ring-klingl)
 
 ## Receive klingl rings via MQTT
-You are looking for a way to get the ringing of a klingl via MQTT?   
+
+You are looking for a way to get the ringing of a klingl via MQTT?  
 [--> JUP !](receive-ring)
