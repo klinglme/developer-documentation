@@ -4,7 +4,57 @@ We use ESP32/ESP8266 only here because with SSL coming we need better microcontr
 
 ## Ring a klingl
 
-tbd... (This with SSL is a lot of code. We will upload an example to our github Organisation)
+You can simply calling the [ring endpoint](/ring-klingl) ignoring SSL:
+
+```c
+#include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
+
+const char* ssid = "yourNetworkName";
+const char* password = "yourNetworkPassword";
+
+void setup () {
+
+    // initialize
+    Serial.begin(115200);
+    WiFi.begin(ssid, password);
+
+    // wait until connected
+    while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.print("Connecting..");
+    }
+
+    // ring, ring who is there!
+    ring();
+}
+
+void ring(){
+    // check WiFi connection status
+    if (WiFi.status() == WL_CONNECTED) {
+
+        // send the request
+        HTTPClient http;
+        http.begin("https://klingl.me/now/<alias>");
+        int httpCode = http.GET;
+
+        // check the returning code
+        if (httpCode > 0) {
+            Serial.println(httpCode);
+        }
+
+        // close connection
+        http.end();
+    }
+}
+
+// run forever...
+void loop() {}
+```
+
+::: tip Calling with SSL
+There are serveral ways to do it and SSL is a lot of code. We will upload an example to our Github organisation.
+:::
 
 ## Recieve a ring (MQTT)
 
@@ -28,8 +78,9 @@ void setup()
 {
     Serial.begin(115200);
 
-    // Optionnal functionnalities of EspMQTTClient :
-    client.enableDebuggingMessages(); // Enable debugging messages sent to serial output
+    // Optional: Enable debugging messages sent to serial output
+    client.enableDebuggingMessages();
+
     Serial.println("Successfully Started Client");
 }
 

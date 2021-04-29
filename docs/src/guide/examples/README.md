@@ -20,4 +20,6 @@ For more information please visit our [Examples](https://github.com/klinglme/) o
 
 ~~All our open endpoints provide SSL. For your own safety use SSL for registering your MQTT client.~~
 
-> Warning: MQTT and Webhooks are still in beta and SSL is not working properly! We are working on this.
+::: warning
+MQTT and Webhooks are still in beta and SSL is not working properly! We are working on this.
+:::

@@ -32,7 +32,9 @@ https://klingl.me/now/<alias>?how=silent
 It is possible to add some payload to your **klingl** request. The payload should be a simple string.
 Of course you can also send json as payload when formatting to a string.
 
-> You can use a payload in all types of ring request!
+::: tip
+You can use a payload in all types of ring request!
+:::
 
 **Send payload via GET**
 
@@ -41,6 +43,7 @@ GET https://klingl.me/now/<alias>?payload=<yourStringPayload>
 ```
 
 **Send a payload via POST**
+
 ```
 POST https://klingl.me/now/<alias>
 Content-Type: application/json

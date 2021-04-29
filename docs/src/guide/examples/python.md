@@ -2,7 +2,7 @@
 
 ## Ring a klingl
 
-To ring your **klingl** you can send an [https request](guide/ring-klingl.html) to our server. All you need is your alias you can find it in our mobile app.
+To ring your **klingl** you can send an [https request](/guide/ring-klingl.html) to our server. All you need is your alias you can find it in our mobile app.
 
 ```py
 import requests
