@@ -9,3 +9,7 @@ Documentation for developers using klingl.me
 ## run documentation
 
 `npm run dev`
+
+## deploy documentation
+
+Add merge request. After successfull merge the documentation will be deployed.
