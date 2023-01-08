@@ -27,7 +27,7 @@ module.exports = {
       {
         async: true,
         defer: true,
-        'data-website-id': 'bbda65eb-2754-4e4b-9f4b-cb1799a01cf0',
+        'data-website-id': '11b0f75e-b0e8-47d0-ab14-917079fe438e',
         src: 'https://umami.mrmonk.dev/umami.js',
         'data-domains': 'docs.klingl.me',
       },
