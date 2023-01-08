@@ -22,6 +22,16 @@ module.exports = {
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
+    [
+      'script',
+      {
+        async: true,
+        defer: true,
+        'data-website-id': 'bbda65eb-2754-4e4b-9f4b-cb1799a01cf0',
+        src: 'https://umami.mrmonk.dev/umami.js',
+        'data-domains': 'docs.klingl.me',
+      },
+    ],
   ],
 
   /**
